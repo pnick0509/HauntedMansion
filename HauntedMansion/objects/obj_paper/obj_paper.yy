@@ -1,0 +1,91 @@
+{
+    "id": "3a14b51b-2d99-4f3f-bdd1-ea51b5da8908",
+    "modelName": "GMObject",
+    "mvc": "1.0",
+    "name": "obj_paper",
+    "eventList": [
+        {
+            "id": "36f6d401-48fb-4eac-b067-02207ffad648",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "3a14b51b-2d99-4f3f-bdd1-ea51b5da8908"
+        },
+        {
+            "id": "16bcc03c-67ab-4d6f-af76-1d6d7dfb81ff",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "3a14b51b-2d99-4f3f-bdd1-ea51b5da8908"
+        }
+    ],
+    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
+    "overriddenProperties": null,
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "persistent": false,
+    "physicsAngularDamping": 0.1,
+    "physicsDensity": 0.5,
+    "physicsFriction": 0.2,
+    "physicsGroup": 0,
+    "physicsKinematic": false,
+    "physicsLinearDamping": 0.1,
+    "physicsObject": false,
+    "physicsRestitution": 0.1,
+    "physicsSensor": false,
+    "physicsShape": 1,
+    "physicsShapePoints": null,
+    "physicsStartAwake": true,
+    "properties": [
+        {
+            "id": "278239da-9d94-4974-968d-c2c3e0fce3b7",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "\"Title Text\"",
+            "varName": "title_text",
+            "varType": 2
+        },
+        {
+            "id": "6c3e2070-2d5f-471b-8ba5-3c234265be8e",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "paper_image",
+            "varType": 1
+        },
+        {
+            "id": "3cb2f5d7-5e43-4f85-a07b-23229cb5f2fe",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "\"Lorem ipsum dolor sit \\namet, an has labore disc-\\nere facilis, mei ut fugit\"",
+            "varName": "desc_text",
+            "varType": 2
+        }
+    ],
+    "solid": false,
+    "spriteId": "a9b093cc-180f-4ac1-9af4-e11d6d74886e",
+    "visible": true
+}
