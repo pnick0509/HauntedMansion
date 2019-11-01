@@ -1,8 +1,8 @@
 {
-    "id": "9a966b18-6e66-4a93-89be-b9213d981629",
+    "id": "660bf230-ada4-44fc-87e5-0824e7777222",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "top_collision",
+    "name": "scr_horizontalMovement",
     "IsCompatibility": false,
     "IsDnD": false
 }

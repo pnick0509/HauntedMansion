@@ -15,13 +15,13 @@
             "m_owner": "3a14b51b-2d99-4f3f-bdd1-ea51b5da8908"
         },
         {
-            "id": "16bcc03c-67ab-4d6f-af76-1d6d7dfb81ff",
+            "id": "36360cbd-d27f-4507-8d91-4c31d04b3898",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
+            "enumb": 7,
+            "eventtype": 6,
             "m_owner": "3a14b51b-2d99-4f3f-bdd1-ea51b5da8908"
         }
     ],
@@ -83,6 +83,20 @@
             "value": "\"Lorem ipsum dolor sit \\namet, an has labore disc-\\nere facilis, mei ut fugit\"",
             "varName": "desc_text",
             "varType": 2
+        },
+        {
+            "id": "a6f8c4fe-c959-47be-9ed0-fc7e30163575",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 512,
+            "value": "room0",
+            "varName": "destination",
+            "varType": 5
         }
     ],
     "solid": false,
