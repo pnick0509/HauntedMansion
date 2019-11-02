@@ -1,28 +1,18 @@
 {
-    "id": "3a14b51b-2d99-4f3f-bdd1-ea51b5da8908",
+    "id": "73a60dce-13c0-4f0b-aa80-e77eaa5b709f",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_paper",
+    "name": "obj_light",
     "eventList": [
         {
-            "id": "36f6d401-48fb-4eac-b067-02207ffad648",
+            "id": "0f3d50eb-a31f-4c0d-9e8f-cecb8149a2e6",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 8,
-            "m_owner": "3a14b51b-2d99-4f3f-bdd1-ea51b5da8908"
-        },
-        {
-            "id": "36360cbd-d27f-4507-8d91-4c31d04b3898",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 7,
-            "eventtype": 6,
-            "m_owner": "3a14b51b-2d99-4f3f-bdd1-ea51b5da8908"
+            "enumb": 2,
+            "eventtype": 3,
+            "m_owner": "73a60dce-13c0-4f0b-aa80-e77eaa5b709f"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -43,7 +33,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "278239da-9d94-4974-968d-c2c3e0fce3b7",
+            "id": "fcaa79fb-8eb1-4429-a225-0b255f4ee3d6",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -52,54 +42,68 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "\"Title Text\"",
-            "varName": "title_text",
-            "varType": 2
+            "value": "128",
+            "varName": "light_radius",
+            "varType": 0
         },
         {
-            "id": "6c3e2070-2d5f-471b-8ba5-3c234265be8e",
+            "id": "c835abff-3208-46c6-8034-8d2a41b5eec9",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
             "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
+            "rangeEnabled": true,
+            "rangeMax": 255,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0",
-            "varName": "paper_image",
-            "varType": 1
+            "value": "255",
+            "varName": "light_red",
+            "varType": 0
         },
         {
-            "id": "3cb2f5d7-5e43-4f85-a07b-23229cb5f2fe",
+            "id": "c79ca950-d403-43fe-bbb6-31e1f780b2ad",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
             "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
+            "rangeEnabled": true,
+            "rangeMax": 255,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "\"Lorem ipsum dolor sit \\namet, an has labore disc-\\nere facilis, mei ut fugit\"",
-            "varName": "desc_text",
-            "varType": 2
+            "value": "200",
+            "varName": "light_green",
+            "varType": 0
         },
         {
-            "id": "a6f8c4fe-c959-47be-9ed0-fc7e30163575",
+            "id": "828d72cc-8eed-444e-bcac-dcd13b304c0a",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
             "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
+            "rangeEnabled": true,
+            "rangeMax": 255,
             "rangeMin": 0,
-            "resourceFilter": 512,
-            "value": "rm_testOne",
-            "varName": "destination",
-            "varType": 5
+            "resourceFilter": 1023,
+            "value": "150",
+            "varName": "light_blue",
+            "varType": 0
+        },
+        {
+            "id": "3678ce6e-802b-4436-9b9d-4d5ca7ddeed5",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": true,
+            "rangeMax": 1,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1",
+            "varName": "light_alpha",
+            "varType": 0
         }
     ],
     "solid": false,
-    "spriteId": "a9b093cc-180f-4ac1-9af4-e11d6d74886e",
-    "visible": true
+    "spriteId": "b6b88a01-f2e2-4cde-83fe-912b5ede1cb0",
+    "visible": false
 }

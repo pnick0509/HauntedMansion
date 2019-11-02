@@ -1,8 +1,8 @@
 {
-    "id": "8dcdc116-ba96-4784-8f51-44853f540e94",
+    "id": "1c806852-b792-465a-8896-1b1056b46074",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_leftSlope",
+    "name": "obj_slope",
     "eventList": [
         
     ],
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "f285a697-97f5-4e0d-a478-76ecbd1e8330",
+    "spriteId": "55673971-376e-4a05-a897-3776eb9ae8d5",
     "visible": true
 }

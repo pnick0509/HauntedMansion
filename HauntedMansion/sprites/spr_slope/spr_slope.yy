@@ -2,7 +2,7 @@
     "id": "55673971-376e-4a05-a897-3776eb9ae8d5",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_rightSlope",
+    "name": "spr_slope",
     "For3D": false,
     "HTile": false,
     "VTile": false,
