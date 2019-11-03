@@ -1,0 +1,1 @@
+scr_spotlight(spotlight_left_x,spotlight_left_y,spotlight_right_x,spotlight_right_y,spotlight_red,spotlight_green,spotlight_blue,spotlight_alpha);

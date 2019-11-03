@@ -5,7 +5,7 @@ if(vel_y > GRAVITY_MAX){
 }
 //Jump
 scr_disableLedges();
-if(keyboard_check_pressed(vk_space) && (place_meeting(x,y+1,obj_wall) || place_meeting(x,y+1,obj_ledge)) && vel_y >= 0){
+if(keyboard_check(vk_space) && (place_meeting(x,y+1,obj_wall) || place_meeting(x,y+1,obj_ledge)) && vel_y >= 0){
 	vel_y = VEL_JUMP;	
 }
 scr_enableLedges();
