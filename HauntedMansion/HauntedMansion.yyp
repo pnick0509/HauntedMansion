@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "57463379-cc9b-486a-9d58-576058f21b13",
+            "Value": {
+                "id": "55c7d7fd-93fb-43cc-8683-8fee04427602",
+                "resourcePath": "objects\\obj_particleManager\\obj_particleManager.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5d95fc33-62b9-4a87-86ee-922242ad2a73",
             "Value": {
                 "id": "773cbe97-14c7-45b0-9a76-92470030f3e2",
