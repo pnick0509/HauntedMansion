@@ -3,7 +3,7 @@
 
 draw_self();
 draw_set_font(fnt_title);
-draw_set_color(c_fuchsia);
+draw_set_color(c_black);
 draw_set_valign(fa_bottom);
 draw_set_halign(fa_center);
 draw_text_transformed(x-84*ROTATE_X,y-84*ROTATE_Y,title_text,1,1,image_angle);

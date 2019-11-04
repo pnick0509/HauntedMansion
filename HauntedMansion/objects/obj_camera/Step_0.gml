@@ -1,3 +1,4 @@
+//Setup light each frame
 if(!surface_exists(global.light)){
 	global.light = surface_create(VIEW_WIDTH,VIEW_HEIGHT);
 }
