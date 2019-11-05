@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "0c48fa6a-2860-4040-9b00-34b4b9ee4109",
+            "Value": {
+                "id": "7dad801f-3554-47cd-b564-7fc03b814fcb",
+                "resourcePath": "views\\0c48fa6a-2860-4040-9b00-34b4b9ee4109.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "0ddc985c-ddc3-441f-9d5c-dab7e321a9eb",
             "Value": {
                 "id": "961c3af0-a8f5-4d62-8091-076acc0f67d1",
@@ -303,6 +311,14 @@
             }
         },
         {
+            "Key": "642bbfe5-27fe-4fcd-ae61-e8414a4430c4",
+            "Value": {
+                "id": "516d4d3b-bf1a-43e1-854e-897aa6dc2730",
+                "resourcePath": "tilesets\\ts_placeholder\\ts_placeholder.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "660bf230-ada4-44fc-87e5-0824e7777222",
             "Value": {
                 "id": "730111ac-f586-46d7-9f57-3b7a0eff7611",
@@ -543,6 +559,14 @@
             }
         },
         {
+            "Key": "9b70d4a9-09fb-49ea-a7c2-b3404d7ca9a3",
+            "Value": {
+                "id": "022c2cf1-776f-442b-a427-eb6d165fbd54",
+                "resourcePath": "views\\9b70d4a9-09fb-49ea-a7c2-b3404d7ca9a3.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "a08b77c6-6e6c-4fed-95d3-5bb85ca02204",
             "Value": {
                 "id": "daebc5ec-52bb-42ce-876d-407b98e71f1b",
@@ -743,6 +767,14 @@
             }
         },
         {
+            "Key": "da7d4f42-3916-4f39-bdde-c9917015d9f0",
+            "Value": {
+                "id": "ae04253d-0c47-469c-b01a-e6981ea21f1c",
+                "resourcePath": "rooms\\rm_cook\\rm_cook.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "daf97ab6-8272-400d-af45-a2eab6d09bec",
             "Value": {
                 "id": "768a133e-81e6-4fb7-90cb-8b7e8aa69246",
@@ -796,6 +828,14 @@
                 "id": "0e69ba51-2b3d-44ca-92e4-c020b230b9b2",
                 "resourcePath": "views\\ed44c1f1-5f41-46e9-aca3-898edae9478c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ed5e0049-2001-4aa9-a439-e7a13093103f",
+            "Value": {
+                "id": "359c2612-1320-487f-9059-a624f548fbac",
+                "resourcePath": "sprites\\spr_placeholderTileset\\spr_placeholderTileset.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

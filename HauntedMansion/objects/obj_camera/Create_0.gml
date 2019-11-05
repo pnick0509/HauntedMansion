@@ -12,6 +12,9 @@ if(room == rm_boot){
 #macro VIEW_X camera_get_view_x(view_camera[0])
 #macro VIEW_Y camera_get_view_y(view_camera[0])
 global.light = surface_create(VIEW_WIDTH,VIEW_HEIGHT);
+//Light Draw
+global.drawX = VIEW_X;
+global.drawY = VIEW_Y;
 //Create main variables
 global.ghost = 0; //Which ghost the player is working on saving
 global.success = 0; //How many ghosts were saved
