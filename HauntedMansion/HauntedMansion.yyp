@@ -199,6 +199,22 @@
             }
         },
         {
+            "Key": "4d0b3bbf-e6e5-486c-8ec8-42a69f46f682",
+            "Value": {
+                "id": "8746f13b-966c-4801-a376-206dfb7564a3",
+                "resourcePath": "scripts\\position_meeting_list\\position_meeting_list.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "508b9156-f3e6-4fde-9a33-e3ac60b0fc29",
+            "Value": {
+                "id": "8c39ad72-b617-4656-b3b8-bba70a8abf7f",
+                "resourcePath": "scripts\\place_meeting_list\\place_meeting_list.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "542457c3-4ae8-4cb5-8680-9553fdaa45e2",
             "Value": {
                 "id": "4325d3c8-f1a1-4d48-be34-da24c9227d12",
@@ -535,6 +551,14 @@
             }
         },
         {
+            "Key": "a7af9ffd-893a-41e7-a6cf-1293cc991f0a",
+            "Value": {
+                "id": "8421927f-8bd6-4f13-98f6-3c25684ab5a5",
+                "resourcePath": "views\\a7af9ffd-893a-41e7-a6cf-1293cc991f0a.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "a80db072-89e7-4912-9c92-227e653c474e",
             "Value": {
                 "id": "03ad72bf-74a5-4ac7-8925-1bb5a7766f43",
@@ -792,6 +816,8 @@
         "8dd467e6-e138-4405-ab60-0279a193bb82",
         "858322e9-36b0-4808-871a-94d8b611f150",
         "318529f2-e7e4-4226-bdd7-0b7f8f542547",
+        "508b9156-f3e6-4fde-9a33-e3ac60b0fc29",
+        "4d0b3bbf-e6e5-486c-8ec8-42a69f46f682",
         "e8cae34e-10d4-4901-93ba-8ab354a2547a",
         "a80db072-89e7-4912-9c92-227e653c474e",
         "660bf230-ada4-44fc-87e5-0824e7777222",
