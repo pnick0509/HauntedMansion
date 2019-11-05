@@ -8,6 +8,6 @@
 ///@argument alpha  |7
 gpu_set_blendmode(bm_subtract);
 surface_set_target(global.light);
-draw_sprite_ext(argument2,argument3,argument0-VIEW_X,argument1-VIEW_Y,1,1,0,make_color_rgb(argument4*argument7,argument5*argument7,argument6*argument7),1);
+draw_sprite_ext(argument2,argument3,argument0-VIEW_X+VIEW_BUFFER,argument1-VIEW_Y+VIEW_BUFFER,1,1,0,make_color_rgb(argument4*argument7,argument5*argument7,argument6*argument7),1);
 surface_reset_target();
 gpu_set_blendmode(bm_normal);

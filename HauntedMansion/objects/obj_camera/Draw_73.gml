@@ -6,6 +6,5 @@ if(room == rm_foyer || room == rm_conclusion){
 }
 //Draw light surface
 gpu_set_blendmode(bm_subtract);
-draw_surface(global.light,global.drawX,global.drawY);
+draw_surface(global.light,global.drawX-VIEW_BUFFER,global.drawY-VIEW_BUFFER);
 gpu_set_blendmode(bm_normal);
-show_debug_message("Draw: "+string(VIEW_X));

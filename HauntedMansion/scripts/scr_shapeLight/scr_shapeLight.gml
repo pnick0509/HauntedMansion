@@ -13,6 +13,6 @@
 gpu_set_blendmode(bm_subtract);
 surface_set_target(global.light);
 draw_set_color(make_color_rgb(argument8*argument11,argument9*argument11,argument10*argument11));
-draw_polygon(x+argument0-VIEW_X,y+argument1-VIEW_Y,x+argument2-VIEW_X,y+argument3-VIEW_Y,x+argument4-VIEW_X,y+argument5-VIEW_Y,x+argument6-VIEW_X,y+argument7-VIEW_Y,false);
+draw_polygon(x+argument0-VIEW_X+VIEW_BUFFER,y+argument1-VIEW_Y+VIEW_BUFFER,x+argument2-VIEW_X+VIEW_BUFFER,y+argument3-VIEW_Y+VIEW_BUFFER,x+argument4-VIEW_X+VIEW_BUFFER,y+argument5-VIEW_Y+VIEW_BUFFER,x+argument6-VIEW_X+VIEW_BUFFER,y+argument7-VIEW_Y+VIEW_BUFFER,false);
 surface_reset_target();
 gpu_set_blendmode(bm_normal);
