@@ -1,0 +1,1 @@
+scr_shapeLight(light_x1,light_y1,light_x2,light_y2,light_x3,light_y3,light_x4,light_y4,light_red,light_green,light_blue,light_alpha);

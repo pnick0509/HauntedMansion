@@ -1,0 +1,1 @@
+scr_light(x,y,light_radius*flicker_alpha,light_red,light_green,light_blue,flicker_alpha);
