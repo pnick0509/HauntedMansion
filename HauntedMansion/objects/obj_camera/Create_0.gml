@@ -17,3 +17,5 @@ global.ghost = 0; //Which ghost the player is working on saving
 global.success = 0; //How many ghosts were saved
 global.attempt = 0; //Item attempting to retrieve
 global.ds_items = ds_list_create(); //List of collected items
+global.hint_text = "Hint Text";//Text for hint
+global.answer = 0; //The answer to a hint

@@ -9,7 +9,7 @@ if(room == rm_foyer){
 	draw_set_valign(fa_middle);
 	draw_set_font(fnt_title);
 	draw_set_color(c_black);
-	draw_text(VIEW_WIDTH/2,450,"Hint text");
+	draw_text(VIEW_WIDTH/2,450,global.hint_text);
 	
 	//Draw temp items
 	draw_set_halign(fa_left);
