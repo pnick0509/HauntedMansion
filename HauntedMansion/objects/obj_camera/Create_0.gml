@@ -23,3 +23,8 @@ global.attempt = 0; //Item attempting to retrieve
 global.ds_items = ds_list_create(); //List of collected items
 global.hint_text = "Hint Text";//Text for hint
 global.answer = 0; //The answer to a hint
+//Transitions
+global.transition_id = -1; //-1 for no transition
+global.transition_timer = 0; //Count down until transition finished
+global.transition_surface = surface_create(VIEW_WIDTH*2,VIEW_HEIGHT*2);
+#macro TRANSITION_TIME 50 //Speed of transition animations

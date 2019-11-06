@@ -1,3 +1,8 @@
+//Draw transition surface
+if(global.transition_id != -1 && surface_exists(global.transition_surface)){
+	draw_surface(global.transition_surface,0,0);
+}
+
 //Show fps
 draw_set_color(c_fuchsia);
 draw_set_halign(fa_left);
