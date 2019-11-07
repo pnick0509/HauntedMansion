@@ -28,3 +28,10 @@ global.transition_id = -1; //-1 for no transition
 global.transition_timer = 0; //Count down until transition finished
 global.transition_surface = surface_create(VIEW_WIDTH*2,VIEW_HEIGHT*2);
 #macro TRANSITION_TIME 50 //Speed of transition animations
+//Double Tap
+globalvar keyboard_lasttime;
+keyboard_lasttime = 0;
+#macro LASTTIME_LIMIT 216000
+global.keyboard_lastpressed = noone;
+globalvar doubleTap;
+doubleTap = false;

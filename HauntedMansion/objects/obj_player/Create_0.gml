@@ -6,3 +6,12 @@ vel_y = 0; //The change in y every step
 //HORIZONTAL MOVEMENT
 vel_x = 0; //The change in x every step
 #macro WALK_SPEED 3 //The amount moved when walked
+dash_count = 0; //Time left dashing
+#macro DASH_TIME 30
+#macro DASH_SPEED 6
+//ANIMATE
+frame_sprite = spr_playerIdle; //sprite_index
+frame_index = 0; //image_index
+frame_speed = 10; //Frames before next index
+frame_count = 0; //Counter for frame_speed
+frame_xscale = 1; //image_xscale

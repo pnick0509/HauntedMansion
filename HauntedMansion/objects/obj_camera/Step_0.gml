@@ -26,6 +26,5 @@ if(global.transition_id != -1){
 }else{
 	if(surface_exists(global.transition_surface)){
 		surface_free(global.transition_surface);
-		//show_message("Surface freed");
 	}	
 }

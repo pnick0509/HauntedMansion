@@ -1,5 +1,4 @@
-//This script subtracts the transition
-
+//This script subtracts the transition out of the surface
 //Set up
 gpu_set_blendmode(bm_subtract);
 draw_set_color(c_white);
@@ -31,4 +30,3 @@ if(global.transition_id == 0){ //Pinhole out
 
 //Clean up
 gpu_set_blendmode(bm_normal);
-show_debug_message(global.transition_timer);
