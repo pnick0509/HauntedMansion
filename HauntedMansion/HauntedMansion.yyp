@@ -263,6 +263,14 @@
             }
         },
         {
+            "Key": "43662431-e3fc-4d8e-add7-f5bf68ac9688",
+            "Value": {
+                "id": "38e5f01c-c3a4-4df3-870c-b083c817e3d8",
+                "resourcePath": "objects\\obj_dumbwaiter\\obj_dumbwaiter.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "445384e1-bd62-48f2-80c8-db2b5fc8cb49",
             "Value": {
                 "id": "ba039cb1-9b5e-4916-9c8b-905674256265",
@@ -491,6 +499,14 @@
             "Value": {
                 "id": "577b1ad2-b864-46fe-bd10-92527d149d88",
                 "resourcePath": "sprites\\spr_spotlight\\spr_spotlight.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7f0ce722-d780-4bec-bc91-8ba493b8148d",
+            "Value": {
+                "id": "3976757a-97f4-4e6c-9371-9b06419d5975",
+                "resourcePath": "sprites\\spr_dumbwaiter\\spr_dumbwaiter.yy",
                 "resourceType": "GMSprite"
             }
         },
