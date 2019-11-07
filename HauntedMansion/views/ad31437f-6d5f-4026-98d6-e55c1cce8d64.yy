@@ -9,7 +9,8 @@
         "7bcd2820-5298-46cd-a3e9-384665592635",
         "a8ada8b3-5fa5-4565-97ad-e17b8e919ddc",
         "2f681730-bf4e-4d1a-a8cc-da825d237b5a",
-        "4d4ffc71-db05-4a07-bd2b-1cefbabbaca5"
+        "4d4ffc71-db05-4a07-bd2b-1cefbabbaca5",
+        "06f9aef9-0ca6-454e-abd0-2f3117f90dfe"
     ],
     "filterType": "GMSprite",
     "folderName": "Lighting",

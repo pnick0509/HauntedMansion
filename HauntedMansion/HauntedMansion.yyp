@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "06f9aef9-0ca6-454e-abd0-2f3117f90dfe",
+            "Value": {
+                "id": "b2e3aae9-4747-4b8d-b612-3ee5631cd649",
+                "resourcePath": "sprites\\spr_wideLight\\spr_wideLight.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0aef2213-618b-4ce7-9c9a-ebc26ef19790",
             "Value": {
                 "id": "4d1faca0-6bd0-4375-bf0a-cf87d366cb35",
@@ -551,6 +559,14 @@
             }
         },
         {
+            "Key": "8a75512b-7c63-455d-a482-9036b12db11b",
+            "Value": {
+                "id": "86b3c1e8-75e6-4888-a1a0-2d2d9b16da39",
+                "resourcePath": "scripts\\scr_wideLight\\scr_wideLight.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "8aa606a9-3023-4053-b9c2-58a321b8d8f5",
             "Value": {
                 "id": "aa9844f3-07ff-4128-9920-ed1542298fe8",
@@ -596,6 +612,14 @@
                 "id": "c81d4640-93b5-4ca5-a90d-0e22bf8565cb",
                 "resourcePath": "views\\900adaaf-3019-4207-8c68-aee357ac092c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "92ca9c74-8480-45ef-b7c6-db3314cf3ddd",
+            "Value": {
+                "id": "5553a4fa-4592-4401-95e9-bf3298f74d2c",
+                "resourcePath": "scripts\\draw_polygon_color\\draw_polygon_color.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -700,6 +724,14 @@
                 "id": "020bfda8-03ed-4fcf-a516-dbc6a5fae1ef",
                 "resourcePath": "sprites\\spr_paper\\spr_paper.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "abd059a7-4032-4a8e-b262-410db5e28108",
+            "Value": {
+                "id": "a75727ef-b2e4-4356-8bc9-e49aab1dc2ab",
+                "resourcePath": "objects\\obj_wideLight\\obj_wideLight.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -993,6 +1025,7 @@
     ],
     "script_order": [
         "1d9f7138-3f24-4705-8fb7-137eb799dd3a",
+        "92ca9c74-8480-45ef-b7c6-db3314cf3ddd",
         "894da59e-295f-4033-89fc-a419bb8d7194",
         "fe466ce4-7659-4ba1-8eac-c852a0214834",
         "2a4ef4aa-c6a6-44e2-92f4-1022e01479a0",
@@ -1015,6 +1048,7 @@
         "71ce11db-7d9a-4885-bc4f-e8b9eb8dac56",
         "89dbbe5f-f90e-4f00-ba31-97f33630aa30",
         "3ac27710-44a4-45e9-868e-d57f4bbde912",
+        "8a75512b-7c63-455d-a482-9036b12db11b",
         "3f5d5811-0bc0-4f16-a339-ef21a9bd2768",
         "bfa9e38b-c84c-4a23-9deb-229682d453a2"
     ],
