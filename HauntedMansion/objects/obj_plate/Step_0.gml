@@ -31,7 +31,7 @@ if(sprite_index == spr_plate){
 		}
 	}
 
-	if(place_meeting(x,y,obj_wall)){
+	if(place_meeting_list(x,y,obj_wall,obj_sigil)){
 		sprite_index = spr_plateShatter;
 		image_index = 0;
 	}

@@ -15,3 +15,6 @@ frame_index = 0; //image_index
 frame_speed = 10; //Frames before next index
 frame_count = 0; //Counter for frame_speed
 frame_xscale = 1; //image_xscale
+//SIGIL
+sigil_counter = 0;
+#macro SIGIL_TIME 90

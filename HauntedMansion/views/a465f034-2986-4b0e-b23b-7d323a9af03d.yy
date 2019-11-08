@@ -10,7 +10,8 @@
         "d6f2b70d-044f-4cbf-803b-177a5984ba6c",
         "845586d3-2304-4617-9914-d2f1a6cbfba0",
         "a18181c7-3ea4-4e4e-811c-07fd92228cb7",
-        "2da46d7a-2bb2-4aba-8f1a-0551a567a9e2"
+        "2da46d7a-2bb2-4aba-8f1a-0551a567a9e2",
+        "60b0120a-1f5a-4723-ba14-363a684d31f0"
     ],
     "filterType": "GMObject",
     "folderName": "Characters",
