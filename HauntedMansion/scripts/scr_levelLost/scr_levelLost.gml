@@ -4,5 +4,5 @@ global.ghost++;
 if(global.ghost < 3){
 	room = rm_foyer;
 }else{
-	room = rm_conclusion;	
+	room = rm_boss;	
 }

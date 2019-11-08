@@ -9,5 +9,5 @@ ds_list_add(global.ds_items,global.attempt);
 if(global.ghost < 3){
 	room = rm_foyer;
 }else{
-	room = rm_conclusion;	
+	room = rm_boss;	
 }

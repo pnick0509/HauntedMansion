@@ -4,7 +4,7 @@ if(global.transition_id == -1){
 	scr_horizontalMovement();
 	scr_verticalMovement();
 	//Use doors
-	if(keyboard_check_pressed(vk_up) && place_meeting(x,y,obj_door) && place_meeting(x,floor(y)+1,obj_wall) && (frame_sprite == spr_playerIdle || frame_sprite == spr_playerWalk)){
+	if(keyboard_check_pressed(vk_up) && place_meeting(x,y,obj_door) && place_meeting_list(x,floor(y)+1,obj_wall,obj_ledge) && (frame_sprite == spr_playerIdle || frame_sprite == spr_playerWalk)){
 		frame_sprite = spr_playerIdle;
 		scr_setTransition(0);
 	}

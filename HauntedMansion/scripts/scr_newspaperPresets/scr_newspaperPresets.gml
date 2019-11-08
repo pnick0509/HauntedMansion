@@ -20,16 +20,16 @@ with(argument0){
 		destination = rm_testThree;
 	}else if(argument1 == 4){
 		title_text = "Green";
-		desc_text = "Line D\nLine E\nLine F";
-		destination = rm_testOne;
+		desc_text = "Lighting Test";
+		destination = rm_testTwo;
 	}else if(argument1 == 5){
 		title_text = "Teal";
 		desc_text = "Line G\nLine H\nLine I";
 		destination = rm_testOne;
 	}else if(argument1 == 6){
 		title_text = "Light Blue";
-		desc_text = "Line A\nLine B\nLine C";
-		destination = rm_testOne;
+		desc_text = "Lighting Test";
+		destination = rm_testTwo;
 	}else if(argument1 == 7){
 		title_text = "Blue";
 		desc_text = "Line D\nLine E\nLine F";
