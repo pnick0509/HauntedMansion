@@ -8,8 +8,8 @@ with(argument0){
 		destination = rm_cook;
 	}else if(argument1 == 1){
 		title_text = "Red";
-		desc_text = "Default Test";
-		destination = rm_testOne;
+		desc_text = "Boss Test";
+		destination = rm_boss;
 	}else if(argument1 == 2){
 		title_text = "Orange";
 		desc_text = "Lighting Test";

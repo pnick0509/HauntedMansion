@@ -1,0 +1,1 @@
+#macro WAVE_SPEED 5
