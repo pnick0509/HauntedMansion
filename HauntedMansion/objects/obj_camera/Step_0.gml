@@ -28,3 +28,16 @@ if(global.transition_id != -1){
 		surface_free(global.transition_surface);
 	}	
 }
+
+//Boss Timer
+if(room == rm_boss){
+	bossMicro -= delta_time;
+	while(bossMicro < 0){
+		bossMicro += 1000000;
+		bossSeconds--;
+	}
+	while(bossSeconds < 0){
+		bossSeconds += 60;
+		bossMinutes--;
+	}
+}

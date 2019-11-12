@@ -3,3 +3,5 @@ if(!place_meeting(x+(WAVE_SPEED*image_xscale),y,obj_wall)){
 }else{
 	instance_destroy();	
 }
+
+scr_damage(true);

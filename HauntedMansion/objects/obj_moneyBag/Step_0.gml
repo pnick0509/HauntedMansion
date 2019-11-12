@@ -26,4 +26,4 @@ if(!place_meeting(x+vel_x,y,obj_wall)){
 	}
 }
 //Hit player
-scr_damage();
+scr_damage(true);

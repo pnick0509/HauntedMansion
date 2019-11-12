@@ -1,14 +1,10 @@
-//Boss attacks
-boss_attack = 1;
-//0: Drop bags
-//1: Reposition horizontally
-//2: Fall
-//3: Rise
-
-//Movement
-vel_x = 2;
+boss_attack = 0;//6;
+timer = 120;
+goal_x = x;
 start_y = y;
-//Counter
-counter = BOSS_TIME;
-#macro BOSS_TIME 240
-#macro BOSS_DESCEND 3
+
+#macro BOSS_DESCEND 4
+#macro BOSS_ASCEND 3
+#macro BOSS_DISTANCE 96
+#macro BOSS_FLOAT 3
+#macro BOSS_DASH 3

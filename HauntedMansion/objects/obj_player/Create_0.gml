@@ -18,3 +18,6 @@ frame_xscale = 1; //image_xscale
 //SIGIL
 sigil_counter = 0;
 #macro SIGIL_TIME 90
+//DAMAGE COOLDOWN
+damage_counter = 0;
+#macro DAMAGE_TIME 30

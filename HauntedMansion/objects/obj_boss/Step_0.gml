@@ -1,9 +1,33 @@
-//Movement
-if(boss_attack == 1){
-	if(!place_meeting(x+vel_x,y,obj_wall)){
-		x += vel_x;
-	}else{
-		vel_x *= -1;	
+//Decrement Timer
+if(timer > 0){
+	timer--;
+}
+//Do attacks
+if(boss_attack == 0){ //Go to player
+	if(x < goal_x){
+		x += BOSS_FLOAT;	
+		if(x > goal_x){
+			x = goal_x;	
+		}
+	}
+	if(x > goal_x){
+		x -= BOSS_FLOAT;
+		if(x < goal_x){
+			x = goal_x;	
+		}
+	}
+	//Next attack
+	if(x == goal_x){
+		if(abs(obj_player.x-x) <= BOSS_DISTANCE){
+			scr_attack(1);
+		}else{
+			scr_attack(2);	
+		}
+	}
+}else if(boss_attack == 1){ //Drop Money
+	//Next attack
+	if(timer <= 0){
+		scr_attack(0);	
 	}
 }else if(boss_attack == 2){
 	if(!place_meeting(x,y+BOSS_DESCEND,obj_wall)){
@@ -11,45 +35,27 @@ if(boss_attack == 1){
 	}else{
 		y = floor(y);
 		while(!place_meeting(x,y+1,obj_wall)){
-			y++;
+			y++;	
 		}
+		instance_create_layer(x,y,layer,obj_waveAttack);
+		var new = instance_create_layer(x,y,layer,obj_waveAttack);
+		new.image_xscale *= -1;
+		//Next attack
+		scr_attack(choose(4,3));
 	}
 }else if(boss_attack == 3){
-	if(y > start_y){
-		y -= BOSS_DESCEND;	
+	y -= BOSS_ASCEND;
+	if(y <= start_y){
+		y = start_y;	
+		//Next attack
+		scr_attack(0);
+	}
+}else if(boss_attack == 4){
+	if(!place_meeting(x+image_xscale*BOSS_DASH,y,obj_wall)){
+		x += image_xscale*BOSS_DASH;
 	}else{
-		y = start_y;
+		scr_attack(3);	
 	}
 }
-//Do timer
-counter--;
-if(counter <= 0){
-	if(boss_attack == 0){
-		var newBag;
-		repeat(3){
-			newBag = instance_create_layer(x,y,layer,obj_moneyBag);	
-			newBag.vel_x = irandom_range(-3,3);
-		}
-		boss_attack = 1;
-		counter = BOSS_TIME;
-	}else if(boss_attack == 1){
-		if(irandom(1) == 0){
-			boss_attack = 0;	
-			counter = 30;
-		}else{
-			boss_attack = 2;	
-			counter = 120;
-		}
-	}else if(boss_attack == 2){
-		boss_attack = 3;
-		counter = 120;
-		var new = instance_create_layer(x,y,layer,obj_waveAttack);
-		new = instance_create_layer(x,y,layer,obj_waveAttack);
-		new.image_xscale *= -1;
-	}else if(boss_attack == 3){
-		boss_attack = 1;
-		counter = 120;
-	}
-}
-//Hit player
-scr_damage();
+//Damage player
+scr_damage(false);

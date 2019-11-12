@@ -21,6 +21,13 @@ if(global.transition_id == -1){
 		scr_levelClear();	
 	}
 }
+//Boss Damage
+if(damage_counter > 0){
+	damage_counter--;
+	if(damage_counter < 0){
+		damage_counter = 0;	
+	}
+}
 //Reposition Camera
 if(instance_exists(obj_camera)){
 	obj_camera.x = x;
