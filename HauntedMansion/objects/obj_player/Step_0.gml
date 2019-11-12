@@ -1,5 +1,5 @@
 //If no transitions are active
-if(global.transition_id == -1){
+if(global.transition_id == -1 && !instance_exists(obj_ghost)){
 	//Do sigil
 	if(sigil_counter > 0){
 		if(keyboard_check(vk_up)){

@@ -7,7 +7,9 @@ if(global.transition_id != -1 && surface_exists(global.transition_surface)){
 draw_set_color(c_fuchsia);
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
-draw_text(2,32,fps);
+if(!keyboard_check(vk_control)){
+	draw_text(2,32,fps);
+}
 //Draw hint text in foyer
 if(room == rm_foyer){
 	draw_set_halign(fa_center);
@@ -36,13 +38,14 @@ if(room == rm_boss){
 	for(var i = 0; i <= global.success; i++){
 		draw_sprite(spr_heart,i,2+(34*i),2);
 	}
-}
-//Draw Clock
-draw_set_color(c_fuchsia);
-draw_set_halign(fa_left);
-draw_set_valign(fa_top);
-if(bossSeconds >= 10){
-	draw_text(2,64,string(bossMinutes)+":"+string(bossSeconds));
-}else{
-	draw_text(2,64,string(bossMinutes)+":0"+string(bossSeconds));
+
+	//Draw Clock
+	draw_set_color(c_fuchsia);
+	draw_set_halign(fa_left);
+	draw_set_valign(fa_top);
+	if(bossSeconds >= 10){
+		draw_text(2,64,string(bossMinutes)+":"+string(bossSeconds));
+	}else{
+		draw_text(2,64,string(bossMinutes)+":0"+string(bossSeconds));
+	}
 }
