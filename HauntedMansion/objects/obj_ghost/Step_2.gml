@@ -1,2 +1,2 @@
-/// @description Insert description here
-// You can write your code in this editor
+scr_light(x,y-24,256,255,0,0,0.35);
+scr_light(x,y-24,128,255,0,0,0.35);

@@ -36,6 +36,6 @@ global.keyboard_lastpressed = noone;
 globalvar doubleTap;
 doubleTap = false;
 //Boss Timer
-bossMinutes = 2;
+bossMinutes = 1;
 bossSeconds = 0;
 bossMicro = 0;

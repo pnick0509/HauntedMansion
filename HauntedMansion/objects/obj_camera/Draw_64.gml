@@ -30,7 +30,13 @@ if(room == rm_foyer){
 	draw_set_valign(fa_middle);
 	draw_set_font(fnt_title);
 	draw_set_color(c_lime);
-	draw_text(VIEW_WIDTH/2,VIEW_HEIGHT/2,string(global.success)+"/"+string(global.ghost));
+	if(global.success < 0){
+		draw_text(VIEW_WIDTH/2,VIEW_HEIGHT/2,string("Bad Ending"));	
+	}else if(global.success == 3){
+		draw_text(VIEW_WIDTH/2,VIEW_HEIGHT/2,"Perfect!"+string(global.success)+"/"+string(global.ghost));
+	}else{
+		draw_text(VIEW_WIDTH/2,VIEW_HEIGHT/2,string(global.success)+"/"+string(global.ghost));
+	}
 }
 
 //Draw health

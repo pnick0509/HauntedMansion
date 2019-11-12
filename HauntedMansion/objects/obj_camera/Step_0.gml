@@ -40,4 +40,7 @@ if(room == rm_boss){
 		bossSeconds += 60;
 		bossMinutes--;
 	}
+	if(bossMinutes < 0 || (bossMinutes == 0 && bossSeconds == 0)){
+		room = rm_conclusion;	
+	}
 }
