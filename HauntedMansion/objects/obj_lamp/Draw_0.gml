@@ -1,0 +1,1 @@
+draw_sprite(spr_lamp,frame_index,x,y);

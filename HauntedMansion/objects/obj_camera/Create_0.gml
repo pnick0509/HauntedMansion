@@ -12,6 +12,8 @@ if(room == rm_boot){
 #macro VIEW_X camera_get_view_x(view_camera[0])
 #macro VIEW_Y camera_get_view_y(view_camera[0])
 #macro VIEW_BUFFER 64
+#macro BRIGHTNESS 200
+	//Brightness used to be 230
 global.light = surface_create(VIEW_WIDTH+VIEW_BUFFER*2,VIEW_HEIGHT+VIEW_BUFFER*2);
 //Light Draw
 global.drawX = VIEW_X;

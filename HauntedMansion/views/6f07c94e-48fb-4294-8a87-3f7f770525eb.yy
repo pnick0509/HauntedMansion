@@ -6,7 +6,8 @@
     "children": [
         "686418b4-57ca-4cfc-90fd-0f808e2c3bb9",
         "9127fc78-a6b1-400f-a763-a13890a4ff67",
-        "b1c6c5c1-62e0-4218-93cf-8161935b6130"
+        "b1c6c5c1-62e0-4218-93cf-8161935b6130",
+        "ff2d8c7e-8401-4403-84b9-6e4edd7070f8"
     ],
     "filterType": "GMSprite",
     "folderName": "Stage",

@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "29f6b5b7-fa19-49bf-a3ff-1330b974d77d",
+            "Value": {
+                "id": "89266bac-08c5-4c88-bbbc-73894024c14b",
+                "resourcePath": "objects\\obj_lamp\\obj_lamp.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2a4ef4aa-c6a6-44e2-92f4-1022e01479a0",
             "Value": {
                 "id": "8e2473a2-3d88-457c-91b2-95b64dd3e9d4",
@@ -604,6 +612,14 @@
                 "id": "2dab9b4b-a790-4264-9f4b-ad413ec77f77",
                 "resourcePath": "objects\\obj_light\\obj_light.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "76bae5c2-fb57-4925-9616-1f586b8a26b2",
+            "Value": {
+                "id": "c685c269-377d-4f3b-8834-34e6c09fa9a7",
+                "resourcePath": "sprites\\spr_hand\\spr_hand.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1183,6 +1199,14 @@
             }
         },
         {
+            "Key": "d45b10bb-cbec-435a-865f-3888be470c9b",
+            "Value": {
+                "id": "f3f023f3-0ac7-4d3b-a618-60b55516ffe3",
+                "resourcePath": "objects\\obj_hand\\obj_hand.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d6f2b70d-044f-4cbf-803b-177a5984ba6c",
             "Value": {
                 "id": "97b5fecf-ac6f-4291-9c8b-09994ce20d49",
@@ -1380,6 +1404,14 @@
                 "id": "affd735f-6f18-4b48-96e4-de085429adec",
                 "resourcePath": "scripts\\scr_newspaperPresets\\scr_newspaperPresets.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "ff2d8c7e-8401-4403-84b9-6e4edd7070f8",
+            "Value": {
+                "id": "e1f593d7-95dd-4f82-a662-ce0a1a6a51ff",
+                "resourcePath": "sprites\\spr_lamp\\spr_lamp.yy",
+                "resourceType": "GMSprite"
             }
         }
     ],

@@ -1,10 +1,10 @@
 //Set hint
 if(global.answer == 0){
-	global.hint_text = "Pink";
+	global.hint_text = "Ladle";
 }else if(global.answer == 1){
-	global.hint_text = "Red";
+	global.hint_text = "Band";
 }else if(global.answer == 2){
-	global.hint_text = "Orange";
+	global.hint_text = "Hat";
 }else if(global.answer == 3){
 	global.hint_text = "Yellow";
 }else if(global.answer == 4){
