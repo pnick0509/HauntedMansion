@@ -32,18 +32,20 @@ if(frame_sprite != spr_bossAppear){
 			scr_attack(0);	
 		}
 	}else if(boss_attack == 2){
-		if(!place_meeting(x,y+BOSS_DESCEND,obj_wall)){
-			y += BOSS_DESCEND;	
-		}else{
-			y = floor(y);
-			while(!place_meeting(x,y+1,obj_wall)){
-				y++;	
+		if(timer <= 0){
+			if(!place_meeting(x,y+BOSS_DESCEND,obj_wall)){
+				y += BOSS_DESCEND;	
+			}else{
+				y = floor(y);
+				while(!place_meeting(x,y+1,obj_wall)){
+					y++;	
+				}
+				instance_create_layer(x,y,layer,obj_waveAttack);
+				var new = instance_create_layer(x,y,layer,obj_waveAttack);
+				new.image_xscale *= -1;
+				//Next attack
+				scr_attack(choose(4,3));
 			}
-			instance_create_layer(x,y,layer,obj_waveAttack);
-			var new = instance_create_layer(x,y,layer,obj_waveAttack);
-			new.image_xscale *= -1;
-			//Next attack
-			scr_attack(choose(4,3));
 		}
 	}else if(boss_attack == 3){
 		y -= BOSS_ASCEND;
@@ -53,7 +55,7 @@ if(frame_sprite != spr_bossAppear){
 			scr_attack(0);
 		}
 	}else if(boss_attack == 4){
-		if(!place_meeting(x+image_xscale*BOSS_DASH,y,obj_wall)){
+		if(!place_meeting_list(x+image_xscale*BOSS_DASH,y,obj_wall,obj_sigil)){
 			x += image_xscale*BOSS_DASH;
 		}else{
 			scr_attack(3);	

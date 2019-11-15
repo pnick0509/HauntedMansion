@@ -10,6 +10,8 @@ if(argument0 == 0){
 }else if(argument0 == 1){
 	instance_create_layer(x,y,layer,obj_moneyBag);
 	timer = 60;
+}else if(argument0 == 2){
+	timer = 30;	
 }else if(argument0 == 4){
 	if(obj_player.x > x){
 		image_xscale = 1;	
