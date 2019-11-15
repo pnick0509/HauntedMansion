@@ -1,4 +1,3 @@
-//show_debug_message(keyboard_lastkey);
 doubleTap = false;
 if(keyboard_check_pressed(vk_anykey)){
 	if(global.keyboard_lastpressed == keyboard_key && keyboard_lasttime < 20){
