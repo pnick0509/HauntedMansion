@@ -79,34 +79,6 @@
             "value": "0",
             "varName": "paper_image",
             "varType": 1
-        },
-        {
-            "id": "3cb2f5d7-5e43-4f85-a07b-23229cb5f2fe",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "\"Lorem ipsum dolor sit \\namet, an has labore disc-\\nere facilis, mei ut fugit\"",
-            "varName": "desc_text",
-            "varType": 2
-        },
-        {
-            "id": "a6f8c4fe-c959-47be-9ed0-fc7e30163575",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 512,
-            "value": "rm_testOne",
-            "varName": "destination",
-            "varType": 5
         }
     ],
     "solid": false,
