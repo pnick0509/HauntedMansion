@@ -19,3 +19,10 @@ if(argument0 == 0){
 		image_xscale = -1;
 	}
 }
+
+//Animation
+if(argument0 == 2){
+	frame_sprite = spr_bossAttack;	
+}else{
+	frame_sprite = spr_bossSpeak;	
+}

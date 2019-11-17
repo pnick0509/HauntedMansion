@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "12dc026a-d9eb-411d-a89f-1557a776389e",
+            "Value": {
+                "id": "7d95b789-718d-43d6-9f01-d40be78439c6",
+                "resourcePath": "sprites\\spr_sigilWall\\spr_sigilWall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1c806852-b792-465a-8896-1b1056b46074",
             "Value": {
                 "id": "8b166468-2bcf-43a8-9afc-9cf229702016",
@@ -1127,6 +1135,14 @@
             }
         },
         {
+            "Key": "bbc454ff-1a4a-4db5-856c-4c5a5c180a06",
+            "Value": {
+                "id": "c08c99da-994d-447e-9e5f-6d9ea78cb1cb",
+                "resourcePath": "sprites\\spr_bossAttack\\spr_bossAttack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bc801922-963e-4621-85b5-a80a8b309414",
             "Value": {
                 "id": "aaeba7a1-bade-4790-9d80-be0711ba00f8",
@@ -1436,6 +1452,14 @@
                 "id": "f2e92fb3-e69f-44f7-b648-05ce814f511c",
                 "resourcePath": "views\\ee0d045f-8248-47c6-b405-a7ee177093d1.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ee631350-57ce-4611-9df5-9cd53ff177c7",
+            "Value": {
+                "id": "a5a567d7-d601-45d0-849c-5bcdff9afee1",
+                "resourcePath": "sprites\\spr_flameAttack\\spr_flameAttack.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
