@@ -1,16 +1,16 @@
 //Set hint
 if(global.answer == 0){
-	global.hint_text = "Ladle";
+	global.hint_text = "Maid 1";
 }else if(global.answer == 1){
-	global.hint_text = "Band";
+	global.hint_text = "Maid 2";
 }else if(global.answer == 2){
-	global.hint_text = "Hat";
+	global.hint_text = "Maid 3";
 }else if(global.answer == 3){
-	global.hint_text = "Yellow";
+	global.hint_text = "Ladle";
 }else if(global.answer == 4){
-	global.hint_text = "Green";
+	global.hint_text = "Band";
 }else if(global.answer == 5){
-	global.hint_text = "Teal";
+	global.hint_text = "Hat";
 }else if(global.answer == 6){
 	global.hint_text = "Light Blue";
 }else if(global.answer == 7){

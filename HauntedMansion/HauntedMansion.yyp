@@ -34,7 +34,7 @@
             "Key": "014ae790-be25-49e6-a3d0-64fd4af76b59",
             "Value": {
                 "id": "72c6621a-cc10-4f7e-94c8-e5038488a8f0",
-                "resourcePath": "rooms\\rm_maid\\rm_maid.yy",
+                "resourcePath": "rooms\\rm_maid1\\rm_maid1.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -180,6 +180,14 @@
                 "id": "89266bac-08c5-4c88-bbbc-73894024c14b",
                 "resourcePath": "objects\\obj_lamp\\obj_lamp.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "2a13fc0c-4be4-4c80-bd4f-bcdc9ef07164",
+            "Value": {
+                "id": "0744e075-544e-4cb2-a20d-eec6fa09ffa8",
+                "resourcePath": "sprites\\spr_portrait\\spr_portrait.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -428,6 +436,14 @@
                 "id": "3f5b6fd8-5a73-4724-b38d-df299e4732c3",
                 "resourcePath": "sprites\\spr_ladder\\spr_ladder.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "581b7c6a-762d-43fc-a4e6-ab48fa42c192",
+            "Value": {
+                "id": "1144e1da-707e-4114-a2d7-8b495c1ba09f",
+                "resourcePath": "rooms\\rm_maid2\\rm_maid2.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -876,6 +892,14 @@
                 "id": "4509b7a2-694b-42f3-94d3-7cef5dc74927",
                 "resourcePath": "tilesets\\ts_mansion\\ts_mansion.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "9681d332-0275-4194-9ef7-4655f6cab1ff",
+            "Value": {
+                "id": "319c3f85-5ea0-49a0-8828-e06368109563",
+                "resourcePath": "rooms\\rm_maid3\\rm_maid3.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
