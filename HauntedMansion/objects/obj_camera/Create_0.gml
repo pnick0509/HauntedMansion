@@ -41,3 +41,5 @@ doubleTap = false;
 bossMinutes = 1;
 bossSeconds = 0;
 bossMicro = 0;
+//Start Music
+audio_play_sound(snd_music,1,true);
