@@ -13,7 +13,8 @@
         "43662431-e3fc-4d8e-add7-f5bf68ac9688",
         "3d75e0ae-27df-4af8-9e00-666ce670cfc5",
         "29f6b5b7-fa19-49bf-a3ff-1330b974d77d",
-        "c0533f3b-0dfa-4a60-a54e-ff5076469e8c"
+        "c0533f3b-0dfa-4a60-a54e-ff5076469e8c",
+        "e8b6901a-c74f-4c6d-be6c-001abfb37654"
     ],
     "filterType": "GMObject",
     "folderName": "Stage",

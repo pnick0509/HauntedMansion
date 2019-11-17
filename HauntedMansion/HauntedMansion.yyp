@@ -1375,6 +1375,14 @@
             }
         },
         {
+            "Key": "e8b6901a-c74f-4c6d-be6c-001abfb37654",
+            "Value": {
+                "id": "f851e862-176b-473a-93ce-66f07acbf746",
+                "resourcePath": "objects\\obj_portrait\\obj_portrait.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e8cae34e-10d4-4901-93ba-8ab354a2547a",
             "Value": {
                 "id": "dd5e4442-24fb-45c9-98f6-456e9efd2151",
