@@ -13,13 +13,13 @@ with(argument0){
 		destination = rm_cookHat;
 	}else if(argument1 == 3){
 		title_text = "Yellow";
-		destination = rm_conclusion;
+		destination = rm_maid;
 	}else if(argument1 == 4){
 		title_text = "Green";
-		destination = rm_conclusion;
+		destination = rm_maid;
 	}else if(argument1 == 5){
 		title_text = "Teal";
-		destination = rm_conclusion;
+		destination = rm_maid;
 	}else if(argument1 == 6){
 		title_text = "Light Blue";
 		destination = rm_conclusion;
