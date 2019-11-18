@@ -6,7 +6,8 @@
     "children": [
         "1d9f7138-3f24-4705-8fb7-137eb799dd3a",
         "92ca9c74-8480-45ef-b7c6-db3314cf3ddd",
-        "894da59e-295f-4033-89fc-a419bb8d7194"
+        "894da59e-295f-4033-89fc-a419bb8d7194",
+        "853d3ef0-0553-43f2-ba38-9dbc5a2adaf6"
     ],
     "filterType": "GMScript",
     "folderName": "Draw Scripts",

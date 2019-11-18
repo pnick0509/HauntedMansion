@@ -22,7 +22,50 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "96ddad52-0655-4052-aa79-a059234e758f",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "x-128",
+            "varName": "appear_x",
+            "varType": 0
+        },
+        {
+            "id": "d7299ab3-e15a-499e-b692-2e8e0b1f0a14",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "y",
+            "varName": "appear_y",
+            "varType": 0
+        },
+        {
+            "id": "4dca768f-9818-4b88-843f-47af5de620ce",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "appear_id",
+            "varType": 1
+        }
+    ],
     "solid": false,
     "spriteId": "8db1b381-2df5-48b2-99b0-f04276132772",
     "visible": true

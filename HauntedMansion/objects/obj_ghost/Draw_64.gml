@@ -1,6 +1,4 @@
 draw_set_color(c_black);
-//draw_rectangle(VIEW_WIDTH*2-64,0,VIEW_WIDTH*2,VIEW_HEIGHT*2,false);
-//draw_rectangle(0,0,64,VIEW_HEIGHT*2,false);
 draw_rectangle(0,0,VIEW_WIDTH*2,BAR_WIDTH,false);
 draw_rectangle(0,VIEW_HEIGHT*2-BAR_WIDTH,VIEW_WIDTH*2,VIEW_HEIGHT*2,false);
 
