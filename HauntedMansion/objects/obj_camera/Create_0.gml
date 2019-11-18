@@ -43,3 +43,8 @@ bossSeconds = 0;
 bossMicro = 0;
 //Start Music
 audio_play_sound(snd_music,1,true);
+//Dialogue
+global.branch = false;
+global.branchSelect = -1;
+global.ds_branchAction = ds_list_create();
+global.ds_branchText = ds_list_create();
