@@ -2,7 +2,7 @@
 randomize();
 //Goto starting room
 if(room == rm_boot){
-	room = rm_foyer;
+	room = rm_title;
 }else{
 	instance_destroy();	
 }

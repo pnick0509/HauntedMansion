@@ -10,6 +10,22 @@ surface_reset_target();
 global.drawX = VIEW_X;
 global.drawY = VIEW_Y;
 
+//Do main menu
+if(room == rm_title && mouse_check_button_pressed(mb_left)){
+	if(mouse_check_range(620+32,450-32-96-96,971-32,450+32-96-96)){ //New game
+		scr_setTransition(3);
+	}else if(mouse_check_range(620+32,450-32-96,971-32,450+32-96)){ //About
+		
+	}else if(mouse_check_range(620+32,450-32,971-32,450+32)){ //Quit
+		game_end();
+	}
+}
+	//draw_text(795,450-96-96,"New Game");
+	//draw_rectangle_width(620+32,450-32-96,971-32,450+32-96,4);
+	//draw_text(795,450-96,"About");
+	//draw_rectangle_width(620+32,450-32,971-32,450+32,4);
+	//draw_text(795,450,"Quit");
+
 //Transition
 if(global.transition_id != -1){
 	global.transition_timer--;

@@ -26,6 +26,14 @@ if(global.transition_id == 0){ //Pinhole out
 		global.transition_id = -1;	
 		global.transition_timer = 0;
 	}
+}else if(global.transition_id == 3){
+	if(global.transition_timer > 0){
+		draw_rectangle(0,576,1024,576-576*(global.transition_timer/TRANSITION_TIME),false);	
+	}else{
+		room = rm_foyer;
+		global.transition_id = -1;
+		global.transition_timer = 0;
+	}
 }
 
 //Clean up
