@@ -21,13 +21,13 @@ with(argument0){
 		title_text = "Chef's Hat";
 		destination = rm_cookHat;
 	}else if(argument1 == 6){
-		title_text = "Light Blue";
-		destination = rm_child;
+		title_text = "Child 1";
+		destination = rm_child1;
 	}else if(argument1 == 7){
-		title_text = "Blue";
-		destination = rm_child;
+		title_text = "Child 2";
+		destination = rm_child2;
 	}else if(argument1 == 8){
-		title_text = "Purple";
-		destination = rm_child;
+		title_text = "Child 3";
+		destination = rm_child3;
 	}
 }

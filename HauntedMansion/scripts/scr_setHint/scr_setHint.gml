@@ -21,9 +21,9 @@ if(global.answer == 0){
 	"You’ll find me when the kitchen’s hot,\nwith frying pans and boiling pots.",
 	"Short or tall or thin or fat,\nwith this you’ll find it’s all old hat.");
 }else if(global.answer == 6){
-	global.hint_text = "Light Blue";
+	global.hint_text = "Child 1";
 }else if(global.answer == 7){
-	global.hint_text = "Blue";
+	global.hint_text = "Child 2";
 }else if(global.answer == 8){
-	global.hint_text = "Purple";
+	global.hint_text = "Child 3";
 }
