@@ -29,5 +29,11 @@ with(argument0){
 	}else if(argument1 == 8){
 		title_text = "Child 3";
 		destination = rm_child3;
+	}else if(argument1 == 9 || argument1 == 11){
+		title_text = "???";
+		instance_destroy();
+	}else if(argument1 == 10){
+		title_text = "Boss";
+		destination = rm_boss;
 	}
 }

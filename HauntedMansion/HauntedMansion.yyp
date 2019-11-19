@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "1ae61392-7f49-4838-8b6a-01b18de91247",
+            "Value": {
+                "id": "a96a441d-3d25-4a94-a8aa-7cc91673e8c4",
+                "resourcePath": "scripts\\draw_star\\draw_star.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "1c806852-b792-465a-8896-1b1056b46074",
             "Value": {
                 "id": "8b166468-2bcf-43a8-9afc-9cf229702016",
@@ -1764,6 +1772,7 @@
         "92ca9c74-8480-45ef-b7c6-db3314cf3ddd",
         "894da59e-295f-4033-89fc-a419bb8d7194",
         "77facb5e-502d-46f7-985f-460ce584a1f1",
+        "1ae61392-7f49-4838-8b6a-01b18de91247",
         "67648c0c-992b-465c-9970-89af710a9110",
         "fe466ce4-7659-4ba1-8eac-c852a0214834",
         "2a4ef4aa-c6a6-44e2-92f4-1022e01479a0",

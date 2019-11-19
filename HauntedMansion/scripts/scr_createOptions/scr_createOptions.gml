@@ -12,6 +12,10 @@ if(global.ghost == 0){
 	ds_list_add(ds_select,6);
 	ds_list_add(ds_select,7);
 	ds_list_add(ds_select,8);	
+}else if(global.ghost == 3){
+	ds_list_add(ds_select,9);
+	ds_list_add(ds_select,9);
+	ds_list_add(ds_select,10);
 }
 //Choose clippings
 with(obj_paper){

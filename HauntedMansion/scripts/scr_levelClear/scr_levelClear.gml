@@ -6,8 +6,4 @@ if(global.attempt == global.answer){
 //Get item
 ds_list_add(global.ds_items,global.attempt);
 //Return to foyer
-if(global.ghost < 3){
-	room = rm_foyer;
-}else{
-	room = rm_boss;	
-}
+room = rm_foyer;
