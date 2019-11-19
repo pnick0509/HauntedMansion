@@ -15,7 +15,7 @@ if(global.transition_id == -1 && !instance_exists(obj_ghost)){
 		scr_playerMovement();
 	}
 	//Test win and lose
-	if(place_meeting(x,y,obj_death)){
+	if(place_meeting(x,y,obj_death) || y > room_height+64){
 		scr_levelLost();
 	}else if(place_meeting(x,y,obj_goal)){
 		//scr_levelClear();	

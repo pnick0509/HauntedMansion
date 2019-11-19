@@ -1,4 +1,4 @@
-if(dash_count <= 0){
+	if(dash_count <= 0){
 	//Gravity
 	vel_y += GRAVITY_ACC;
 	if(vel_y > GRAVITY_MAX){

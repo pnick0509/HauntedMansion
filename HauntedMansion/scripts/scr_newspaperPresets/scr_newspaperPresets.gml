@@ -22,12 +22,12 @@ with(argument0){
 		destination = rm_cookHat;
 	}else if(argument1 == 6){
 		title_text = "Light Blue";
-		destination = rm_conclusion;
+		destination = rm_child;
 	}else if(argument1 == 7){
 		title_text = "Blue";
-		destination = rm_conclusion;
+		destination = rm_child;
 	}else if(argument1 == 8){
 		title_text = "Purple";
-		destination = rm_conclusion;
+		destination = rm_child;
 	}
 }
