@@ -12,8 +12,7 @@
         "0dddb5b2-26e9-4631-97ac-43b9a6e23ec2",
         "ef978bcc-4470-4dac-95b3-05e9f9bc2774",
         "c897eaec-8779-4902-8cae-60eec64f37b9",
-        "90778689-0651-42f8-a40f-08836234de41",
-        "8a529be3-5414-4800-af2f-bb8fa163efd9"
+        "90778689-0651-42f8-a40f-08836234de41"
     ],
     "filterType": "GMScript",
     "folderName": "Step Scripts",
