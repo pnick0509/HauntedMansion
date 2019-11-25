@@ -3,7 +3,11 @@ if(layer_get_visible("Table")){
 	draw_set_valign(fa_middle);
 	draw_set_font(fnt_title);
 	draw_set_color(c_white);
-	draw_text(VIEW_WIDTH/2,450,global.hint_text);
+	if(global.ghost == 3){
+		draw_text(VIEW_WIDTH/2,450,"You know what must be done...");
+	}else{
+		draw_text(VIEW_WIDTH/2,450,global.hint_text);
+	}
 }else if(global.branch){
 	draw_set_color(c_black);
 	draw_set_alpha(0.7);

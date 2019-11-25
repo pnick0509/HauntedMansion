@@ -48,3 +48,5 @@ global.branch = false;
 global.branchSelect = -1;
 global.ds_branchAction = ds_list_create();
 global.ds_branchText = ds_list_create();
+//Instructions
+instruction = false;

@@ -1,10 +1,10 @@
 //Set hint
 if(global.answer == 0){
-	global.hint_text = "Maid 1";
+	global.hint_text = "Broom Hint";
 }else if(global.answer == 1){
-	global.hint_text = "Maid 2";
+	global.hint_text = "Drawing Hint";
 }else if(global.answer == 2){
-	global.hint_text = "Maid 3";
+	global.hint_text = "Urn Hint";
 }else if(global.answer == 3){
 	global.hint_text = choose(
 	"Shaped like a dome and holds a head,\nproducing green, white, or red.",
@@ -21,9 +21,9 @@ if(global.answer == 0){
 	"You’ll find me when the kitchen’s hot,\nwith frying pans and boiling pots.",
 	"Short or tall or thin or fat,\nwith this you’ll find it’s all old hat.");
 }else if(global.answer == 6){
-	global.hint_text = "Child 1";
+	global.hint_text = "Portrait Hint";
 }else if(global.answer == 7){
-	global.hint_text = "Child 2";
+	global.hint_text = "Teddy Bear Hint";
 }else if(global.answer == 8){
-	global.hint_text = "Child 3";
+	global.hint_text = "Trike Hint";
 }

@@ -4,10 +4,11 @@ if(global.transition_id != -1 && surface_exists(global.transition_surface)){
 }
 
 //Show fps
-draw_set_color(c_fuchsia);
-draw_set_halign(fa_left);
-draw_set_valign(fa_top);
-if(!keyboard_check(vk_control)){
+if(keyboard_check(vk_control)){
+	draw_set_color(c_fuchsia);
+	draw_set_halign(fa_left);
+	draw_set_valign(fa_top);
+	draw_set_font(fnt_description);
 	draw_text(2,32,fps);
 }
 //Draw hint text in foyer
