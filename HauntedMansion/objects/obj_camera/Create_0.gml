@@ -12,8 +12,11 @@ if(room == rm_boot){
 #macro VIEW_X camera_get_view_x(view_camera[0])
 #macro VIEW_Y camera_get_view_y(view_camera[0])
 #macro VIEW_BUFFER 64
-#macro BRIGHTNESS 200
-	//Brightness used to be 230
+#macro MIN_BRIGHT 150
+#macro MAX_BRIGHT 250
+#macro BRIGHTNESS lerp(MIN_BRIGHT,MAX_BRIGHT,1-(global.brightnessSetting/100))
+global.brightnessSetting = 50;
+	//Brightness used to be 230, then 200
 global.light = surface_create(VIEW_WIDTH+VIEW_BUFFER*2,VIEW_HEIGHT+VIEW_BUFFER*2);
 //Light Draw
 global.drawX = VIEW_X;
@@ -50,3 +53,4 @@ global.ds_branchAction = ds_list_create();
 global.ds_branchText = ds_list_create();
 //Instructions
 instruction = false;
+settings = false;

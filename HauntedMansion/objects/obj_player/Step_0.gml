@@ -18,7 +18,6 @@ if(global.transition_id == -1 && !instance_exists(obj_ghost)){
 	if(place_meeting(x,y,obj_death) || y > room_height+64){
 		scr_levelLost();
 	}else if(place_meeting(x,y,obj_goal)){
-		//scr_levelClear();	
 		var newGhost = instance_create_layer(obj_goal.appear_x,obj_goal.appear_y,layer,obj_ghost);
 		with(newGhost){
 			ghost_id = obj_goal.appear_id;

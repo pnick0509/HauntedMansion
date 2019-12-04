@@ -11,17 +11,43 @@ global.drawX = VIEW_X;
 global.drawY = VIEW_Y;
 
 //Do main menu
-if(room == rm_title && mouse_check_button_pressed(mb_left) && global.transition_id == -1){
-	if(!instruction){
-		if(mouse_check_range(620+32,450-32-96-96,971-32,450+32-96-96)){ //New game
-			scr_setTransition(3);
-		}else if(mouse_check_range(620+32,450-32-96,971-32,450+32-96)){ //About
-			instruction = true;
-		}else if(mouse_check_range(620+32,450-32,971-32,450+32)){ //Quit
-			game_end();
+if(room == rm_title && global.transition_id == -1){
+	if(mouse_check_button_pressed(mb_left)){
+		if(!instruction && !settings){
+			if(mouse_check_range(620+32,450-32-96-96-96,971-32,450+32-96-96-96)){ //New game
+				scr_setTransition(3);
+			}else if(mouse_check_range(620+32,450-32-96-96,971-32,450+32-96-96)){ //About
+				instruction = true;
+			}else if(mouse_check_range(620+32,450-32-96,971-32,450+32-96)){ //Settings
+				settings = true;
+			}else if(mouse_check_range(620+32,450-32,971-32,450+32)){ //Quit
+				game_end();
+			}
+		}else if(instruction){
+			instruction = false;	
+		}else{
+			if(mouse_check_range(32,32+64,96,96+64)){
+				
+			}else if(mouse_check_range(192,32+64,192+64,96+64)){
+			
+			}else{
+				settings = false;
+			}
 		}
-	}else{
-		instruction = false;	
+	}else if(mouse_check_button(mb_left)){
+		if(settings){
+			if(mouse_check_range(32,32+64,96,96+64)){
+				global.brightnessSetting--;
+				if(global.brightnessSetting < 0){
+					global.brightnessSetting = 0;	
+				}
+			}else if(mouse_check_range(192,32+64,192+64,96+64)){
+				global.brightnessSetting++;
+				if(global.brightnessSetting > 100){
+					global.brightnessSetting = 100;	
+				}
+			}
+		}
 	}
 }
 
@@ -121,6 +147,15 @@ if(room == rm_foyer){
 }
 
 //Stop Music
-if(keyboard_check_pressed(vk_f9)){
-	audio_stop_all();	
+//if(keyboard_check_pressed(vk_f9)){
+//	audio_stop_all();	
+//}
+
+//Do parallax
+#macro PARALLAX_MODIFIER 70
+if(layer_exists("Parallax")){
+	layer_x("Parallax",obj_player.x/PARALLAX_MODIFIER);
+	show_debug_message("ye");	
+}else{
+	show_debug_message("ni");	
 }
