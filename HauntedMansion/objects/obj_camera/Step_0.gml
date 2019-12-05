@@ -141,7 +141,57 @@ if(room == rm_foyer){
 				layer_set_visible("TableBackground",true);
 				layer_set_visible("FoyerBackground",false);
 				layer_set_visible("Foyer",false);
-				break
+				break;
+			//Maid
+			case 6:
+				scr_branchClear(0,scr_textList(5));
+				scr_branchAdd(9,"Hear More");
+				scr_branchAdd(4,"To Foyer");
+				scr_branchAdd(5,"To Table");
+				break;
+			case 7:
+				scr_branchClear(0,scr_textList(6));
+				scr_branchAdd(9,"Hear More");
+				scr_branchAdd(4,"To Foyer");
+				scr_branchAdd(5,"To Table");
+				break;
+			case 8:
+				scr_branchClear(0,scr_textList(7));
+				scr_branchAdd(9,"Hear More");
+				scr_branchAdd(4,"To Foyer");
+				scr_branchAdd(5,"To Table");
+				break;
+			case 9:
+				scr_branchClear(0,scr_textList(4));
+				scr_branchAdd(6,"Children");
+				scr_branchAdd(7,"Boorish Womanizer");
+				scr_branchAdd(8,"Revenge");
+				break;
+			//Child
+			case 10:
+				scr_branchClear(0,scr_textList(9));
+				scr_branchAdd(13,"Hear More");
+				scr_branchAdd(4,"To Foyer");
+				scr_branchAdd(5,"To Table");
+				break;
+			case 11:
+				scr_branchClear(0,scr_textList(10));
+				scr_branchAdd(13,"Hear More");
+				scr_branchAdd(4,"To Foyer");
+				scr_branchAdd(5,"To Table");
+				break;
+			case 12:
+				scr_branchClear(0,scr_textList(11));
+				scr_branchAdd(13,"Hear More");
+				scr_branchAdd(4,"To Foyer");
+				scr_branchAdd(5,"To Table");
+				break;
+			case 13:
+				scr_branchClear(0,scr_textList(8));
+				scr_branchAdd(10,"Papa");
+				scr_branchAdd(11,"The Lady");
+				scr_branchAdd(12,"Mommy");
+				break;
 		}
 	}
 }

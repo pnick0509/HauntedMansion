@@ -29,6 +29,11 @@ if(room = rm_title){
 		draw_text(795,450,"Quit");
 	}else if(instruction){
 		draw_sprite(spr_instructions,0,0,0);	
+		draw_set_font(fnt_ghost);
+		draw_set_color(c_white);
+		draw_set_halign(fa_left);
+		draw_set_valign(fa_bottom);
+		draw_text(8,VIEW_HEIGHT-6,"By Ghost House Productions 2019\n • Brandon Horton\n • Michael Johnson\n • Charlie Lewis\n • Preston Nichols");
 	}else{
 		draw_set_color(c_white);
 		draw_set_valign(fa_middle);
@@ -41,6 +46,12 @@ if(room = rm_title){
 		draw_rectangle_width(192,32+64,192+64,96+64,4);
 		draw_text(192+32,64+64,">");
 		draw_text(144,64+64,global.brightnessSetting);
+		
+		draw_set_font(fnt_ghost);
+		draw_set_color(c_white);
+		draw_set_halign(fa_left);
+		draw_set_valign(fa_bottom);
+		draw_text(8,VIEW_HEIGHT-6,"Click anywhere to return to the title screen.");
 	}
 }
 //Draw light surface

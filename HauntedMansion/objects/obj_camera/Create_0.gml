@@ -46,8 +46,6 @@ bossSeconds = 0;
 bossMicro = 0;
 //Start Music
 audio_play_sound(snd_music,1,true);
-show_message("Audio stopped");
-audio_stop_all();
 //Dialogue
 global.branch = false;
 global.branchSelect = -1;

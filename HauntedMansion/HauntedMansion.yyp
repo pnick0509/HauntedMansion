@@ -319,6 +319,14 @@
             }
         },
         {
+            "Key": "3960c3be-9a27-402e-8247-a43bda1483b1",
+            "Value": {
+                "id": "1dbabe92-a55c-47b3-9ad2-c546d6fe5871",
+                "resourcePath": "scripts\\draw_text_width\\draw_text_width.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "3a14b51b-2d99-4f3f-bdd1-ea51b5da8908",
             "Value": {
                 "id": "fc703759-198b-4569-a08e-25c52b82e31f",
@@ -1855,6 +1863,7 @@
         "77facb5e-502d-46f7-985f-460ce584a1f1",
         "1ae61392-7f49-4838-8b6a-01b18de91247",
         "c76d2c82-1665-40e2-b812-69d8b8531508",
+        "3960c3be-9a27-402e-8247-a43bda1483b1",
         "fe466ce4-7659-4ba1-8eac-c852a0214834",
         "2a4ef4aa-c6a6-44e2-92f4-1022e01479a0",
         "8cec6c9c-8d90-49da-8fef-c2288edbd7c4",

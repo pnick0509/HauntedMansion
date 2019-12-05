@@ -18,7 +18,7 @@ if(layer_get_visible("Table")){
 	draw_set_valign(fa_middle);
 	draw_set_font(fnt_description);
 	draw_set_color(c_white);
-	draw_text(VIEW_WIDTH/2,180,ds_list_find_value(global.ds_branchText,0));
+	draw_text_width(VIEW_WIDTH/2,180,800,ds_list_find_value(global.ds_branchText,0));
 		
 	selectionColor(global.branchSelect,0,c_red,c_white);
 	draw_rectangle(VIEW_WIDTH/2-256,350,VIEW_WIDTH/2+256,400,true);
