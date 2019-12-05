@@ -14,7 +14,9 @@
         "4c18b8b4-d19c-4869-b76d-8f2d310b13b4",
         "b8182e00-fd43-4839-91bf-f8bf2840e2d0",
         "ae81ce29-fe60-4ece-baf3-ed028fdd70b5",
-        "b1fc5ca2-4cf4-49af-b9d6-e85119319602"
+        "b1fc5ca2-4cf4-49af-b9d6-e85119319602",
+        "67a5043f-2a74-4f38-aed3-8f24d76c4ea8",
+        "ec63d241-fd68-4b84-9707-bd036bbbeafe"
     ],
     "filterType": "GMSprite",
     "folderName": "Stage",

@@ -359,6 +359,14 @@
             }
         },
         {
+            "Key": "3c932be7-baef-4f16-af64-78387dbcb2ac",
+            "Value": {
+                "id": "6fcb0196-f5dc-4857-8ae2-06c6cd09c24e",
+                "resourcePath": "sprites\\spr_firewallCollision\\spr_firewallCollision.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3d6bc9a1-ecc5-4180-90ef-c4ee6c189f54",
             "Value": {
                 "id": "66ec87f7-b278-4a32-833e-a4cd06cadc59",
@@ -404,6 +412,14 @@
                 "id": "59d757ab-b11c-4e64-b8ee-627dfc1c94f7",
                 "resourcePath": "scripts\\scr_levelLost\\scr_levelLost.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "481322d6-796e-4fa0-be78-edf172ca6be5",
+            "Value": {
+                "id": "40a84b64-6009-45c0-8c50-068af4006a18",
+                "resourcePath": "objects\\obj_firewall\\obj_firewall.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -588,6 +604,14 @@
                 "id": "26ee83db-55c8-4eb7-a306-288db3599956",
                 "resourcePath": "scripts\\scr_drawFoyer\\scr_drawFoyer.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "67a5043f-2a74-4f38-aed3-8f24d76c4ea8",
+            "Value": {
+                "id": "2beb826b-7932-4760-b559-a103c6f40ad0",
+                "resourcePath": "sprites\\spr_fireball\\spr_fireball.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1724,6 +1748,14 @@
                 "id": "75021adf-d71d-47ea-ad1e-85927d87fe04",
                 "resourcePath": "rooms\\rm_boot\\rm_boot.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "ec63d241-fd68-4b84-9707-bd036bbbeafe",
+            "Value": {
+                "id": "19c52063-f6b4-421d-9e26-92bf5d6c2e3b",
+                "resourcePath": "sprites\\spr_concludeStars\\spr_concludeStars.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
