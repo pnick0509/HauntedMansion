@@ -46,6 +46,8 @@ bossSeconds = 0;
 bossMicro = 0;
 //Start Music
 audio_play_sound(snd_music,1,true);
+show_message("Audio stopped");
+audio_stop_all();
 //Dialogue
 global.branch = false;
 global.branchSelect = -1;
@@ -54,3 +56,6 @@ global.ds_branchText = ds_list_create();
 //Instructions
 instruction = false;
 settings = false;
+//Ending
+global.concludeY = 0;
+#macro CONCLUDE_RATE 0.25

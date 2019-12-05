@@ -33,7 +33,8 @@ with(argument0){
 		title_text = "???";
 		instance_destroy();
 	}else if(argument1 == 10){
-		title_text = "Boss";
+		paper_image = 9;
+		title_text = "Money Bag";
 		destination = rm_boss;
 	}
 }

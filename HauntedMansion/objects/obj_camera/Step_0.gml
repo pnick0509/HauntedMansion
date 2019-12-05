@@ -154,8 +154,10 @@ if(room == rm_foyer){
 //Do parallax
 #macro PARALLAX_MODIFIER 70
 if(layer_exists("Parallax")){
-	layer_x("Parallax",obj_player.x/PARALLAX_MODIFIER);
-	show_debug_message("ye");	
-}else{
-	show_debug_message("ni");	
+	layer_x("Parallax",obj_player.x/PARALLAX_MODIFIER);	
+}
+
+//Do conclude
+if(room == rm_conclusion){
+	global.concludeY += CONCLUDE_RATE;	
 }
